@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".otherconditions">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="10dp"
+       android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OTHER CONDITIONS"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+
+    />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="HIV/AIDS"
+               android:textSize="15sp"
+               android:textStyle="bold"
+               android:layout_marginTop="5dp"/>
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/cbnoneh"
+               android:checked="false"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Malaria"
+               android:textSize="15sp"
+               android:textStyle="bold"
+               android:layout_marginTop="5dp"/>
+
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/cbnonem"
+               android:checked="false"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Tuberculosis"
+               android:textSize="15sp"
+               android:textStyle="bold"
+               android:layout_marginTop="5dp"/>
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/cbnonet"
+               android:checked="false"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="None of the above"
+               android:textSize="15sp"
+               android:textStyle="bold"
+               android:layout_marginTop="5dp"/>
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/cbnone"
+               android:checked="false"/>
+       </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="50dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hiv"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+
+    <Spinner
+        android:id="@+id/patients_otherdetailh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:id="@+id/petient_descriptionsh"
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:gravity="top"
+        android:paddingTop="10dp"
+        android:layout_height="60dp"
+        android:background="@drawable/borderr"
+        android:layout_marginTop="20dp"
+        android:hint="description"
+        />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Malaria"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+
+        <Spinner
+            android:id="@+id/patients_otherdetailsm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/petient_descriptionsm"
+            android:inputType="textMultiLine"
+            android:layout_width="match_parent"
+            android:gravity="top"
+            android:paddingTop="10dp"
+            android:layout_height="50dp"
+            android:background="@drawable/borderr"
+            android:layout_marginTop="20dp"
+            android:hint="description"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tuberculosis"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+
+        <Spinner
+            android:id="@+id/patients_otherdetailt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:id="@+id/petient_descriptionst"
+            android:inputType="textMultiLine"
+            android:layout_width="match_parent"
+            android:gravity="top"
+            android:paddingTop="10dp"
+            android:layout_height="50dp"
+            android:background="@drawable/borderr"
+            android:layout_marginTop="20dp"
+            android:hint="description"
+            />
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/patient_saveandrecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="#3498db"
+        android:text="SAVE RECORD"
+        android:textColor="#fff"/>
+   </LinearLayout>
+    </ScrollView>
+</LinearLayout>

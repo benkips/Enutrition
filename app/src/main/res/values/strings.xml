@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">E-nutritoncare</string>
+    <string name="title_activity_index">index</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="indexmenuone">
+        <item>Create new patient record</item>
+        <item>View my record</item>
+        <item>Locate other specialist</item>
+        <item>Progressive record</item>
+    </string-array>
+    <string-array name="indexmenutwo">
+        <item>Bio data,medical data,Arthropometric data for patient</item>
+        <item>See my records </item>
+        <item>Converse and locate other specialist in the field</item>
+        <item>Enter changes and update records for existing patients </item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

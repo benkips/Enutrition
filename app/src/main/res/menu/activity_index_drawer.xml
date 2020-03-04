@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+      <item
+            android:id="@+id/my_proff"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="My profile" />
+        <item
+            android:id="@+id/edit_location"
+            android:icon="@drawable/ic_edit_location_black_24dp"
+            android:title="Change location" />
+        <item
+            android:id="@+id/info"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="about the app" />
+    </group>
+
+    <item android:title="Developer">
+        <menu>
+
+            <item
+                android:id="@+id/developer"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="developer" />
+        </menu>
+    </item>
+
+</menu>

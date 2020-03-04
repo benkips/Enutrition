@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    tools:context=".change_location">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROGRESSIVE  RECORDS"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the progressive records for an exisiting patient "
+        android:textSize="20dp"
+        android:layout_gravity="center" />
+    <EditText
+        android:id="@+id/patient_idnoprog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:hint="ID number"
+        />
+    <EditText
+        android:id="@+id/patient_weightprog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="numberDecimal"
+        android:hint="weight(kgs) decimals allowed"
+        />
+
+    <EditText
+        android:id="@+id/patient_heightprog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="numberDecimal"
+        android:hint="height(cms)"
+        />
+    <EditText
+        android:id="@+id/patient_muacprog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="numberDecimal"
+        android:hint="MUAC (cms)"/>
+
+    <Button
+        android:id="@+id/save_btnprog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="#3498db"
+        android:text="SAVE  RECORD"
+        android:textColor="#fff"
+        />
+
+
+</LinearLayout>
